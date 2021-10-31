@@ -26,7 +26,7 @@ for contour in contours:
         i = 1
         
         continue
-    #cv2.cvtColor(b)
+    #cv2.cvtColor()
     # cv2.approxPloyDP() function to approximate the shape
     approx = cv2.approxPolyDP(
         contour, 0.01 * cv2.arcLength(contour, True), True)
