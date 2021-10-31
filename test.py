@@ -20,7 +20,7 @@ i = 0
 # list for storing names of shapes
 for contour in contours:
     
-    # here we are ignoring first counter because 
+    # here we are ignoring fsdfd irst counter because 
     # findcontour function detects whole image as shape
     if i == 0:
         i = 1
