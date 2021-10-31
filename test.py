@@ -24,7 +24,7 @@ for contour in contours:
     # findcontour function detects whole image as shape
     if i == 0:
         i = 1
-        
+        j = 2
         continue
     #cv2.cvtColor()
     # cv2.approxPloyDP() function to approximate the shape
